@@ -7,5 +7,5 @@
 ## 已发布
 - **ISSUE #1 · 2026-08-05** — 休斯破产：一场早被写进剧本的落幕（角度：行业趋势的可预测性）
   - 深度图文：`issues/2026-08-05.html`
-  - 信息图：`assets/02_信息图.png`
-  - 短视频：`assets/03_短视频.mp4`
+  - 信息图：`assets/infographic.png`
+  - 短视频：`assets/video.mp4`
