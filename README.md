@@ -1,2 +1,11 @@
-# xinghai-archive
-xinghai-archive static archive (GitHub Pages)
+# 星海 Notes 归档站
+
+卫星 / 航天干货分享 + 突发大事深度专题。核心视角：**行业趋势的可预测性**。
+
+由 Harry 自动归档，GitHub Pages 公网发布。
+
+## 已发布
+- **ISSUE #1 · 2026-08-05** — 休斯破产：一场早被写进剧本的落幕（角度：行业趋势的可预测性）
+  - 深度图文：`issues/2026-08-05.html`
+  - 信息图：`assets/02_信息图.png`
+  - 短视频：`assets/03_短视频.mp4`
