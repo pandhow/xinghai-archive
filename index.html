@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>星海 Notes · 专题展示平台</title>
 <style>
-  :root{--bg:#eef1f7;--card:#ffffff;--ink:#1f2733;--sub:#5b6675;--line:#dde3ef;--deep:#0c1b33;--accent:#2f6bff;--gold:#c9a14a}
+  :root{--bg:#eef1f7;--card:#ffffff;--ink:#1f2733;--sub:#5b6675;--line:#dde3ef;--deep:#0c1b33;--deep2:#13294d;--accent:#2f6bff;--gold:#c9a14a}
   *{box-sizing:border-box;margin:0;padding:0}
   body{background:var(--bg);color:var(--ink);font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.7}
   .wrap{max-width:920px;margin:0 auto;padding:0 20px 70px}
@@ -33,6 +33,12 @@
 
   .why{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px 24px;margin-bottom:22px;font-size:14.5px;color:var(--sub)}
   .why b{color:var(--deep)}
+  .arch{background:var(--card);border:1px dashed var(--line);border-radius:16px;padding:20px 24px;margin-bottom:22px}
+  .arch .h{font-size:14px;font-weight:800;color:var(--deep2);margin-bottom:12px;letter-spacing:1px}
+  .arch .i{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:12px 0;border-top:1px solid var(--line);font-size:14.5px}
+  .arch .i:first-of-type{border-top:none}
+  .arch .i a{color:var(--accent);text-decoration:none;font-weight:600;white-space:nowrap}
+  .arch .i .no{color:var(--sub);font-size:12px;flex-shrink:0}
   .coming{text-align:center;color:var(--sub);font-size:14px;padding:22px;border:1px dashed var(--line);border-radius:16px;margin-bottom:22px}
   footer{text-align:center;font-size:12.5px;color:var(--sub)}
 </style>
@@ -42,7 +48,7 @@
   <header>
     <div class="badge">星海 NOTES · 专题展示平台</div>
     <h1>把卫星行业的转折，<br>讲成你能用的认知</h1>
-    <p>卫星 / 航天干货 + 突发大事深度专题 ｜ 核心视角：行业趋势的可预测性</p>
+    <p>卫星 / 航天干货 + 突发大事深度专题 ｜ 核心视角：趋势 × 系统</p>
     <div class="auto"><span class="dot"></span> 全自动上线 · 零人工发布 · 链接可分享</div>
   </header>
 
@@ -51,27 +57,32 @@
   </div>
 
   <div class="feature">
-    <div class="no">ISSUE #1 · 2026-08-05</div>
-    <span class="angle">角度 · 行业趋势的可预测性</span>
-    <h2>休斯破产：一场早被写进剧本的落幕</h2>
-    <p class="lead">50 年 VSAT 先驱，2023 年刚把全球最大通信卫星送上天，2026 年 8 月却走进破产法庭。这不是黑天鹅——趋势早已剧透结局。</p>
-    <img class="cover" src="assets/infographic.png" alt="休斯破产信息图">
-    <div class="cap">一图流信息图（点击可保存 / 转发）</div>
-    <video src="assets/video.mp4" controls playsinline preload="metadata"></video>
+    <div class="no">ISSUE #2 · 2026-08-10</div>
+    <span class="angle">角度 · 系统论</span>
+    <h2>18 层宝塔：为什么单点突破赢不了</h2>
+    <p class="lead">华为首席科学家廖恒，用近 5 小时访谈把 AI 芯片的胜负手拆成 18 层产业链。休斯死于系统失配，昇腾生于系统协同——同一道题的两个解法。</p>
+    <img class="cover" src="assets/infographic2.png" alt="18层宝塔信息图">
+    <div class="cap">一图流信息图：半导体 18 层产业链全景（点击可保存 / 转发）</div>
+    <video src="assets/video2.mp4" controls playsinline preload="metadata"></video>
     <div class="cap">竖版 15s 短视频（可直接转发到视频号 / 朋友圈）</div>
     <div class="take">
-      <b>三个关键结论：</b>
+      <b>本期核心判断：</b>
       <ul>
-        <li><b>可预测</b>：GEO 600ms vs LEO 20–40ms 是轨道力学，非产品缺陷；用户流失曲线早在数年前的财报里就写好了。</li>
-        <li><b>看得到 ≠ 躲得过</b>：2021 年休斯就在给 OneWeb 造低轨设备，却把最先进的 JUPITER 3 押在正在被淘汰的 GEO 宽带上——资本锁、沉没成本锁、心智锁三面夹击。</li>
-        <li><b>给中国启示</b>：星网 / 亚太 / 中星们，别重演"重金押 GEO 消费宽带"；盯领先指标、摸到了颠覆者就要"成为它或绕开它"。</li>
+        <li><b>单点突破赢不了</b>：18 层宝塔的短板定律——产业链整体性能由最短的那层决定，单层世界一流没用。</li>
+        <li><b>休斯 vs 昇腾的镜像</b>：一个死于系统失配（看得到趋势却躲不过三把锁），一个生于系统协同（8 倍冗余 vs 32 倍，靠全栈补回）。</li>
+        <li><b>稀缺的不是算力</b>：梁文锋在崇拜 Scaling Law 的行业里选更难的路——敢在范式见顶前做逆向选择的人，才是中国 AI 最缺的。</li>
       </ul>
     </div>
     <div class="cta">
-      <a href="issues/2026-08-05.html">阅读全文 →</a>
-      <a class="alt" href="assets/infographic.png">信息图大图</a>
-      <a class="alt" href="assets/video.mp4">下载短视频</a>
+      <a href="issues/2026-08-10.html">阅读全文 →</a>
+      <a class="alt" href="assets/infographic2.png">信息图大图</a>
+      <a class="alt" href="assets/video2.mp4">下载短视频</a>
     </div>
+  </div>
+
+  <div class="arch">
+    <div class="h">历史专题</div>
+    <div class="i"><span>休斯破产：一场早被写进剧本的落幕（修订版）</span><span class="no">ISSUE #1 · 2026-08-05</span><a href="issues/2026-08-05.html">阅读 →</a></div>
   </div>
 
   <div class="coming">下一期专题，正在由 Harry 自动归档上架…</div>
